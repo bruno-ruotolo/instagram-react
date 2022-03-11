@@ -41,6 +41,5 @@ function SugestaoUsers(props) {
       </div>
       <div class="seguir">Seguir</div>
     </div>
-
   );
 }

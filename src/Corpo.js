@@ -1,6 +1,6 @@
-import AllPosts from "./AllPosts";
-import Stories from "./Stories";
-import Sidebar from "./Sidebar";
+import AllPosts from "./Posts/AllPosts";
+import Stories from "./Stories/Stories";
+import Sidebar from "./SideBar/Sidebar";
 
 export default function Corpo() {
   return (
@@ -12,4 +12,4 @@ export default function Corpo() {
       <Sidebar />
     </div>
   );
-}
+};

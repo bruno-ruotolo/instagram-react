@@ -1,11 +1,19 @@
+import User from "./User";
 import AllSugestaoUsers from "./AllSugestaoUsers";
 
 export default function Sidebar() {
+  const userInformations = {
+    userImage: "assets/img/catanacomics.svg",
+    userName: "catanacomics",
+    userNickName: "Catana"
+  }
+  const { userName, userImage, userNickName } = userInformations;
+
   return (
     <div class="sidebar">
-      <User userImage="assets/img/catanacomics.svg"
-        userName="catanacomics"
-        userNickName="Catana" />
+      <User userImage={userImage}
+        userName={userName}
+        userNickName={userNickName} />
 
       <AllSugestaoUsers />
 
@@ -21,15 +29,5 @@ export default function Sidebar() {
   );
 }
 
-function User(props) {
-  return (
-    <div class="usuario">
-      <img src={props.userImage} alt={props.userName} />
-      <div class="texto">
-        <strong>{props.userName}</strong>
-        {props.userNickName}
-      </div>
-    </div>
-  );
-}
+
 

@@ -11,7 +11,7 @@ export default function Navbar() {
       </div>
     </div>
   );
-}
+};
 
 function Logo() {
   return (

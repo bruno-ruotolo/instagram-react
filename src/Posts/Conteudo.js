@@ -6,4 +6,4 @@ export default function Conteudo(props) {
       <img src={conteudoImage} alt={conteudoImageAlt} />
     </div>
   );
-}
+};

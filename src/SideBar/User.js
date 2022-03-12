@@ -4,6 +4,7 @@ export default function User(props) {
   return (
     <div class="usuario">
       <img src={userImage} alt={userName} />
+
       <div class="texto">
         <strong>{userName}</strong>
         {userNickName}

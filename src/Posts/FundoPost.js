@@ -24,6 +24,7 @@ function FundoPostAcoes() {
           ionIconInformations.map(ionIconInformation => <ion-icon name={ionIconInformation}></ion-icon>)
         }
       </div>
+
       <div>
         <ion-icon name="bookmark-outline"></ion-icon>
       </div>

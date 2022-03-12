@@ -20,5 +20,6 @@ export default function postsInformations() {
       peopleNumber: "99.159"
     }
   ];
+
   return postsInformations;
 };

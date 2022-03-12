@@ -10,11 +10,11 @@ export default function Stories() {
 
           return <Story userName={userName} userImage={userImage} />
         })
-      };
+      }
 
-      < div class="setinha">
+      <div class="setinha">
         <ion-icon name="chevron-forward-circle"></ion-icon>
       </div>
     </div >
-  )
+  );
 };

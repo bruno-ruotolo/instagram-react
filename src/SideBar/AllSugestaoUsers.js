@@ -1,9 +1,7 @@
-import SugestaoUsers from "./SugestaoUser";
+import SugestaoUsers from "./SugestaoUsers";
 import SugestaoUsersInformations from "./SugestaoUsersInformations";
 
 export default function AllSugestaoUsers() {
-
-
   return (
     <div class="sugestoes">
       <div class="titulo">
@@ -14,6 +12,7 @@ export default function AllSugestaoUsers() {
       {
         SugestaoUsersInformations().map(sugestaoUsersInformation => {
           const { userImage, userName, razao } = sugestaoUsersInformation;
+
           return (
             <SugestaoUsers
               userImage={userImage}
@@ -24,8 +23,4 @@ export default function AllSugestaoUsers() {
       }
     </div>
   );
-}
-
-
-
-
+};

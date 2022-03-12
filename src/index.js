@@ -11,7 +11,7 @@ function App() {
       <FundoMobile />
     </div>
   );
-}
+};
 
 const app = App();
 const rootDiv = document.querySelector(".root");

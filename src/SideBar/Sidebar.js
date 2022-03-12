@@ -6,7 +6,8 @@ export default function Sidebar() {
     userImage: "assets/img/catanacomics.svg",
     userName: "catanacomics",
     userNickName: "Catana"
-  }
+  };
+
   const { userName, userImage, userNickName } = userInformations;
 
   return (
@@ -27,7 +28,7 @@ export default function Sidebar() {
       </div>
     </div>
   );
-}
+};
 
 
 

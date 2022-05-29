@@ -1,10 +1,10 @@
 # Instagram Using React
 In this project the desktop layout of Instagram website was redone using CSS, HTML and React
 
-## Desktop Layout
+### Desktop Layout
 <img src="/assets/instagram.gif" />
 
-## Mobile Layout
+### Mobile Layout
 <img src="/assets/instagram-mobile.gif" />
 
 Try it out at https://instagram-react-blush.vercel.app

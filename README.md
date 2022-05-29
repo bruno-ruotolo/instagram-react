@@ -1,11 +1,11 @@
 # Instagram Using React
 In this project the desktop layout of Instagram website was redone using CSS, HTML and React
 
-<hr>
+<hr></hr>
 ### Desktop Layout
 <img src="/assets/instagram.gif" />
 
-<hr>
+<hr></hr>
 ### Mobile Layout
   <img src="/assets/instagram-mobile.gif" />
 

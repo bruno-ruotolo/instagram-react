@@ -2,11 +2,11 @@
 In this project the desktop layout of Instagram website was redone using CSS, HTML and React
 
 <hr></hr>
-### Desktop Layout
+<h3>Desktop Layout</h3> 
 <img src="/assets/instagram.gif" />
 
 <hr></hr>
-### Mobile Layout
+<h3>Mobile Layout</h3> 
   <img src="/assets/instagram-mobile.gif" />
 
 Try it out at https://instagram-react-blush.vercel.app

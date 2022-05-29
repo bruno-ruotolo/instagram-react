@@ -17,6 +17,7 @@ This is a Application that redo the layout of the social network Instagram.com, 
 
 - Mouse Over Effects
 - Inputs Elements 
+- Responsive Layout 
 
 ## Technologies
 The following tools, frameworks and languages were used in this project:<br>

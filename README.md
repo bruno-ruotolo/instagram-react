@@ -5,7 +5,9 @@ In this project the desktop layout of Instagram website was redone using CSS, HT
 <img src="/assets/instagram.gif" />
 
 ### Mobile Layout
-<img src="/assets/instagram-mobile.gif" />
+<div style='display:flex; width: 100%; justify-content: center;'>
+  <img src="/assets/instagram-mobile.gif" />
+</div>  
 
 Try it out at https://instagram-react-blush.vercel.app
 
